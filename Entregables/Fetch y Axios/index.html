@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Consumo de APIs con Fetch y Axios</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+      }
+      button {
+        margin: 10px;
+        padding: 10px 20px;
+      }
+      #data-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20px;
+      }
+      .character {
+        margin: 10px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        width: 200px;
+        border-radius: 10px;
+      }
+      .character img {
+        width: 100%;
+        border-radius: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Información de Personajes - Rick & Morty</h1>
+    <button id="fetch-btn">Obtener con Fetch</button>
+    <button id="axios-btn">Obtener con Axios</button>
+    <div id="data-container"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
